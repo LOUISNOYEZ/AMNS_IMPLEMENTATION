@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 09:04:37 2021
+# Process ID: 19764
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7264 C:\Users\louis\Desktop\AMNS_IMPLEMENTATION\VIVADO\IP\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project/vivado.log
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project/managed_ip_project.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project/managed_ip_project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1144.137 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name AMNS_arith_ip_v1_0_project -directory C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/managed_ip_project/managed_ip_project.tmp/AMNS_arith_ip_v1_0_project c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/louis/desktop/amns_implementation/vivado/ip/managed_ip_project/managed_ip_project.tmp/amns_arith_ip_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1144.137 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1144.137 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0/src/AMNS_arith_multiple_stage.vhd] -no_script -reset -force -quiet
+remove_files  c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0/src/AMNS_arith_multiple_stage.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0/src C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/AMNS_ARITH_HW.srcs/sources_1/new/AMNS_arith_multiple_stage.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo/AMNS_arith_ip_1.0/src/AMNS_arith_multiple_stage.vhd' already exists, please use -force if you want to overwrite!
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 09:11:49 2021...

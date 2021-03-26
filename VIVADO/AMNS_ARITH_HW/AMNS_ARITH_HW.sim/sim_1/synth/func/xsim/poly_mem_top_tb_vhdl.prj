@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"poly_mem_top_tb_func_synth.vhd" \
+"../../../../../AMNS_ARITH_HW.srcs/sim_1/new/poly_mem_top_tb.vhd" \
+
+# Do not sort compile order
+nosort

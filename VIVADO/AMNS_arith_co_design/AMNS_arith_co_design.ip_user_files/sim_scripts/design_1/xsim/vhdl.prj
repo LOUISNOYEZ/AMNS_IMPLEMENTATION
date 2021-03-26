@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_25M_0/sim/design_1_rst_ps7_0_25M_0.vhd" \
+"../../../bd/design_1/ipshared/4666/src/amns_package.vhd" \
+"../../../bd/design_1/ipshared/4666/src/ALU_multiple_stage.vhd" \
+"../../../bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd" \
+"../../../bd/design_1/ipshared/4666/src/FSM.vhd" \
+"../../../bd/design_1/ipshared/4666/src/counter.vhd" \
+"../../../bd/design_1/ipshared/4666/src/poly_mem.vhd" \
+"../../../bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_AMNS_arith_ip_0_0/sim/design_1_AMNS_arith_ip_0_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

@@ -1,0 +1,2824 @@
+18:16:07 **** Incremental Build of configuration Debug for project AMNS_arith_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_co_design_wrapper/export/AMNS_arith_co_design_wrapper/sw/AMNS_arith_co_design_wrapper/standalone_ps7_cortexa9_1/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:55:
+C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_co_design_wrapper/export/AMNS_arith_co_design_wrapper/sw/AMNS_arith_co_design_wrapper/standalone_ps7_cortexa9_1/bspinclude/include/xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+../src/helloworld.c:269:1: warning: braces around scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      | ^~~~~~~~
+../src/helloworld.c:269:1: note: (near initialization for 'C[0]')
+../src/helloworld.c:269:31: warning: excess elements in scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      |                               ^~~~~~~~~~
+../src/helloworld.c:269:31: note: (near initialization for 'C[0]')
+../src/helloworld.c:269:43: warning: excess elements in scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      |                                           ^~~~~~~~~~
+../src/helloworld.c:269:43: note: (near initialization for 'C[0]')
+../src/helloworld.c:269:55: warning: excess elements in scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      |                                                       ^~~~~~~~~~
+../src/helloworld.c:269:55: note: (near initialization for 'C[0]')
+../src/helloworld.c:269:67: warning: excess elements in scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      |                                                                   ^~~~~~~~~~
+../src/helloworld.c:269:67: note: (near initialization for 'C[0]')
+../src/helloworld.c:269:79: warning: excess elements in scalar initializer
+  269 | uint32_t C[6] = {{0x397a4edc, 0x5d806d32, 0x79273200, 0x43bd3472, 0x798d11b0, 0x104b5fb2},
+      |                                                                               ^~~~~~~~~~
+../src/helloworld.c:269:79: note: (near initialization for 'C[0]')
+../src/helloworld.c:270:3: warning: braces around scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |   ^
+../src/helloworld.c:270:3: note: (near initialization for 'C[1]')
+../src/helloworld.c:270:16: warning: excess elements in scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |                ^~~~~~~~~~
+../src/helloworld.c:270:16: note: (near initialization for 'C[1]')
+../src/helloworld.c:270:28: warning: excess elements in scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:270:28: note: (near initialization for 'C[1]')
+../src/helloworld.c:270:40: warning: excess elements in scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:270:40: note: (near initialization for 'C[1]')
+../src/helloworld.c:270:52: warning: excess elements in scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:270:52: note: (near initialization for 'C[1]')
+../src/helloworld.c:270:64: warning: excess elements in scalar initializer
+  270 |   {0x26f226ab, 0x5ef92eba, 0x2f822d8a, 0x5bd87ec6, 0x56522df9, 0x37d81fff},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:270:64: note: (near initialization for 'C[1]')
+../src/helloworld.c:271:3: warning: braces around scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |   ^
+../src/helloworld.c:271:3: note: (near initialization for 'C[2]')
+../src/helloworld.c:271:16: warning: excess elements in scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |                ^~~~~~~~~~
+../src/helloworld.c:271:16: note: (near initialization for 'C[2]')
+../src/helloworld.c:271:28: warning: excess elements in scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:271:28: note: (near initialization for 'C[2]')
+../src/helloworld.c:271:40: warning: excess elements in scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:271:40: note: (near initialization for 'C[2]')
+../src/helloworld.c:271:52: warning: excess elements in scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:271:52: note: (near initialization for 'C[2]')
+../src/helloworld.c:271:64: warning: excess elements in scalar initializer
+  271 |   {0x0ab24256, 0x2f6b56b0, 0x273168a1, 0x463326ab, 0x04b94803, 0x6b0b58e8},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:271:64: note: (near initialization for 'C[2]')
+../src/helloworld.c:272:3: warning: braces around scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |   ^
+../src/helloworld.c:272:3: note: (near initialization for 'C[3]')
+../src/helloworld.c:272:16: warning: excess elements in scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |                ^~~~~~~~~~
+../src/helloworld.c:272:16: note: (near initialization for 'C[3]')
+../src/helloworld.c:272:28: warning: excess elements in scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:272:28: note: (near initialization for 'C[3]')
+../src/helloworld.c:272:40: warning: excess elements in scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:272:40: note: (near initialization for 'C[3]')
+../src/helloworld.c:272:52: warning: excess elements in scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:272:52: note: (near initialization for 'C[3]')
+../src/helloworld.c:272:64: warning: excess elements in scalar initializer
+  272 |   {0x50a470ba, 0x36465906, 0x72eb30ee, 0x39de6220, 0x454f5e9e, 0x41546fb7},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:272:64: note: (near initialization for 'C[3]')
+../src/helloworld.c:273:3: warning: braces around scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |   ^
+../src/helloworld.c:273:3: note: (near initialization for 'C[4]')
+../src/helloworld.c:273:16: warning: excess elements in scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |                ^~~~~~~~~~
+../src/helloworld.c:273:16: note: (near initialization for 'C[4]')
+../src/helloworld.c:273:28: warning: excess elements in scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:273:28: note: (near initialization for 'C[4]')
+../src/helloworld.c:273:40: warning: excess elements in scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:273:40: note: (near initialization for 'C[4]')
+../src/helloworld.c:273:52: warning: excess elements in scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:273:52: note: (near initialization for 'C[4]')
+../src/helloworld.c:273:64: warning: excess elements in scalar initializer
+  273 |   {0x748f2134, 0x2e315931, 0x140720ad, 0x72356c51, 0x4d0f5d2e, 0x147e3699},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:273:64: note: (near initialization for 'C[4]')
+../src/helloworld.c:274:3: warning: braces around scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |   ^
+../src/helloworld.c:274:3: note: (near initialization for 'C[5]')
+../src/helloworld.c:274:16: warning: excess elements in scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |                ^~~~~~~~~~
+../src/helloworld.c:274:16: note: (near initialization for 'C[5]')
+../src/helloworld.c:274:28: warning: excess elements in scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:274:28: note: (near initialization for 'C[5]')
+../src/helloworld.c:274:40: warning: excess elements in scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:274:40: note: (near initialization for 'C[5]')
+../src/helloworld.c:274:52: warning: excess elements in scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:274:52: note: (near initialization for 'C[5]')
+../src/helloworld.c:274:64: warning: excess elements in scalar initializer
+  274 |   {0x682d7136, 0x33cc4cd9, 0x48954a04, 0x7d6205b7, 0x24ca26be, 0x7ba32227},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:274:64: note: (near initialization for 'C[5]')
+../src/helloworld.c:275:3: warning: braces around scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |   ^
+../src/helloworld.c:275:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:16: warning: excess elements in scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |                ^~~~~~~~~~
+../src/helloworld.c:275:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:28: warning: excess elements in scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:275:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:40: warning: excess elements in scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:275:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:52: warning: excess elements in scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:275:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:64: warning: excess elements in scalar initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:275:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:275:3: warning: excess elements in array initializer
+  275 |   {0x26a56639, 0x65c4525e, 0x655c6294, 0x72947679, 0x7bdb3ecb, 0x1bcf2cc5},
+      |   ^
+../src/helloworld.c:275:3: note: (near initialization for 'C')
+../src/helloworld.c:276:3: warning: braces around scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |   ^
+../src/helloworld.c:276:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:16: warning: excess elements in scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |                ^~~~~~~~~~
+../src/helloworld.c:276:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:28: warning: excess elements in scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:276:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:40: warning: excess elements in scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:276:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:52: warning: excess elements in scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:276:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:64: warning: excess elements in scalar initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:276:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:276:3: warning: excess elements in array initializer
+  276 |   {0x60c523f9, 0x3a117023, 0x2ab24fb3, 0x7ea35e48, 0x6f714bca, 0x26436658},
+      |   ^
+../src/helloworld.c:276:3: note: (near initialization for 'C')
+../src/helloworld.c:277:3: warning: braces around scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |   ^
+../src/helloworld.c:277:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:16: warning: excess elements in scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |                ^~~~~~~~~~
+../src/helloworld.c:277:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:28: warning: excess elements in scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:277:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:40: warning: excess elements in scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:277:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:52: warning: excess elements in scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:277:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:64: warning: excess elements in scalar initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:277:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:277:3: warning: excess elements in array initializer
+  277 |   {0x4b5d6bac, 0x7f2a18a5, 0x34322cc9, 0x2fb04d7b, 0x763d76f9, 0x3e3b3532},
+      |   ^
+../src/helloworld.c:277:3: note: (near initialization for 'C')
+../src/helloworld.c:278:3: warning: braces around scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |   ^
+../src/helloworld.c:278:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:16: warning: excess elements in scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |                ^~~~~~~~~~
+../src/helloworld.c:278:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:28: warning: excess elements in scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:278:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:40: warning: excess elements in scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:278:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:52: warning: excess elements in scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:278:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:64: warning: excess elements in scalar initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:278:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:278:3: warning: excess elements in array initializer
+  278 |   {0x1f170082, 0x514e07b9, 0x416b5f03, 0x601851f4, 0x5a6a33d9, 0x3f657f36},
+      |   ^
+../src/helloworld.c:278:3: note: (near initialization for 'C')
+../src/helloworld.c:279:3: warning: braces around scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |   ^
+../src/helloworld.c:279:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:16: warning: excess elements in scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |                ^~~~~~~~~~
+../src/helloworld.c:279:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:28: warning: excess elements in scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:279:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:40: warning: excess elements in scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:279:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:52: warning: excess elements in scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:279:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:64: warning: excess elements in scalar initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:279:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:279:3: warning: excess elements in array initializer
+  279 |   {0x61745ed8, 0x11ff06b5, 0x56641742, 0x10ff4c76, 0x16aa7fdc, 0x18967ae8},
+      |   ^
+../src/helloworld.c:279:3: note: (near initialization for 'C')
+../src/helloworld.c:280:3: warning: braces around scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |   ^
+../src/helloworld.c:280:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:16: warning: excess elements in scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |                ^~~~~~~~~~
+../src/helloworld.c:280:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:28: warning: excess elements in scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:280:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:40: warning: excess elements in scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:280:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:52: warning: excess elements in scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:280:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:64: warning: excess elements in scalar initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:280:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:280:3: warning: excess elements in array initializer
+  280 |   {0x1ec30973, 0x04f11ed2, 0x785b1aa4, 0x5be94fbd, 0x5ac95525, 0x41700b10},
+      |   ^
+../src/helloworld.c:280:3: note: (near initialization for 'C')
+../src/helloworld.c:281:3: warning: braces around scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |   ^
+../src/helloworld.c:281:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:16: warning: excess elements in scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |                ^~~~~~~~~~
+../src/helloworld.c:281:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:28: warning: excess elements in scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:281:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:40: warning: excess elements in scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:281:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:52: warning: excess elements in scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:281:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:64: warning: excess elements in scalar initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:281:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:281:3: warning: excess elements in array initializer
+  281 |   {0x657a438b, 0x45f01705, 0x781b06fb, 0x0e8e6cc9, 0x36692719, 0x28c555b5},
+      |   ^
+../src/helloworld.c:281:3: note: (near initialization for 'C')
+../src/helloworld.c:282:3: warning: braces around scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |   ^
+../src/helloworld.c:282:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:16: warning: excess elements in scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |                ^~~~~~~~~~
+../src/helloworld.c:282:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:28: warning: excess elements in scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:282:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:40: warning: excess elements in scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:282:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:52: warning: excess elements in scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:282:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:64: warning: excess elements in scalar initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:282:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:282:3: warning: excess elements in array initializer
+  282 |   {0x67db6c10, 0x111b7e8a, 0x64107a67, 0x6175770b, 0x7b1c358b, 0x307b5b1a},
+      |   ^
+../src/helloworld.c:282:3: note: (near initialization for 'C')
+../src/helloworld.c:283:3: warning: braces around scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |   ^
+../src/helloworld.c:283:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:16: warning: excess elements in scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |                ^~~~~~~~~~
+../src/helloworld.c:283:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:28: warning: excess elements in scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:283:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:40: warning: excess elements in scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:283:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:52: warning: excess elements in scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:283:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:64: warning: excess elements in scalar initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:283:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:283:3: warning: excess elements in array initializer
+  283 |   {0x4b530799, 0x443f0f4d, 0x055b7171, 0x12792199, 0x0718015c, 0x1f4455a8},
+      |   ^
+../src/helloworld.c:283:3: note: (near initialization for 'C')
+../src/helloworld.c:284:3: warning: braces around scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |   ^
+../src/helloworld.c:284:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:16: warning: excess elements in scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |                ^~~~~~~~~~
+../src/helloworld.c:284:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:28: warning: excess elements in scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:284:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:40: warning: excess elements in scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:284:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:52: warning: excess elements in scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:284:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:64: warning: excess elements in scalar initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:284:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:284:3: warning: excess elements in array initializer
+  284 |   {0x54682fc5, 0x60213561, 0x778f2ac1, 0x02cc4f2c, 0x00e27a0d, 0x77d65aed},
+      |   ^
+../src/helloworld.c:284:3: note: (near initialization for 'C')
+../src/helloworld.c:285:3: warning: braces around scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |   ^
+../src/helloworld.c:285:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:16: warning: excess elements in scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |                ^~~~~~~~~~
+../src/helloworld.c:285:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:28: warning: excess elements in scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:285:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:40: warning: excess elements in scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:285:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:52: warning: excess elements in scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:285:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:64: warning: excess elements in scalar initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:285:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:285:3: warning: excess elements in array initializer
+  285 |   {0x47b72658, 0x79443c09, 0x63763029, 0x2a744350, 0x3c276dd4, 0x009f5e98},
+      |   ^
+../src/helloworld.c:285:3: note: (near initialization for 'C')
+../src/helloworld.c:286:3: warning: braces around scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |   ^
+../src/helloworld.c:286:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:16: warning: excess elements in scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |                ^~~~~~~~~~
+../src/helloworld.c:286:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:28: warning: excess elements in scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:286:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:40: warning: excess elements in scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:286:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:52: warning: excess elements in scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:286:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:64: warning: excess elements in scalar initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:286:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:286:3: warning: excess elements in array initializer
+  286 |   {0x25e5759f, 0x580d2eba, 0x09cf7c4d, 0x32340ecd, 0x620e0652, 0x17800803},
+      |   ^
+../src/helloworld.c:286:3: note: (near initialization for 'C')
+../src/helloworld.c:287:3: warning: braces around scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |   ^
+../src/helloworld.c:287:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:16: warning: excess elements in scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |                ^~~~~~~~~~
+../src/helloworld.c:287:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:28: warning: excess elements in scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:287:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:40: warning: excess elements in scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:287:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:52: warning: excess elements in scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:287:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:64: warning: excess elements in scalar initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:287:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:287:3: warning: excess elements in array initializer
+  287 |   {0x69b35c24, 0x25e83bfb, 0x7a956428, 0x09440b1b, 0x045a29b3, 0x16fb539c},
+      |   ^
+../src/helloworld.c:287:3: note: (near initialization for 'C')
+../src/helloworld.c:288:3: warning: braces around scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |   ^
+../src/helloworld.c:288:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:16: warning: excess elements in scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |                ^~~~~~~~~~
+../src/helloworld.c:288:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:28: warning: excess elements in scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:288:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:40: warning: excess elements in scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:288:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:52: warning: excess elements in scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:288:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:64: warning: excess elements in scalar initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:288:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:288:3: warning: excess elements in array initializer
+  288 |   {0x6ac047cf, 0x781c5a5f, 0x2b3b6348, 0x4fa67384, 0x0a862c23, 0x21b0793e},
+      |   ^
+../src/helloworld.c:288:3: note: (near initialization for 'C')
+../src/helloworld.c:289:3: warning: braces around scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |   ^
+../src/helloworld.c:289:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:16: warning: excess elements in scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |                ^~~~~~~~~~
+../src/helloworld.c:289:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:28: warning: excess elements in scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:289:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:40: warning: excess elements in scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:289:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:52: warning: excess elements in scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:289:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:64: warning: excess elements in scalar initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:289:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:289:3: warning: excess elements in array initializer
+  289 |   {0x042869db, 0x412a5ba7, 0x0f34697b, 0x58441e69, 0x534a73b1, 0x338c5292},
+      |   ^
+../src/helloworld.c:289:3: note: (near initialization for 'C')
+../src/helloworld.c:290:3: warning: braces around scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |   ^
+../src/helloworld.c:290:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:16: warning: excess elements in scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |                ^~~~~~~~~~
+../src/helloworld.c:290:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:28: warning: excess elements in scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:290:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:40: warning: excess elements in scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:290:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:52: warning: excess elements in scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:290:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:64: warning: excess elements in scalar initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:290:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:290:3: warning: excess elements in array initializer
+  290 |   {0x33de792d, 0x463f63f9, 0x4b330714, 0x064f2948, 0x71a86aee, 0x084e7660},
+      |   ^
+../src/helloworld.c:290:3: note: (near initialization for 'C')
+../src/helloworld.c:291:3: warning: braces around scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |   ^
+../src/helloworld.c:291:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:16: warning: excess elements in scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:291:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:28: warning: excess elements in scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:291:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:40: warning: excess elements in scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:291:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:52: warning: excess elements in scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:291:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:64: warning: excess elements in scalar initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:291:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:291:3: warning: excess elements in array initializer
+  291 |   {0x67496860, 0x299c00d7, 0x6ba45aaf, 0x58e22a70, 0x7ae23f88, 0x401e7f9b},
+      |   ^
+../src/helloworld.c:291:3: note: (near initialization for 'C')
+../src/helloworld.c:292:3: warning: braces around scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |   ^
+../src/helloworld.c:292:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:16: warning: excess elements in scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |                ^~~~~~~~~~
+../src/helloworld.c:292:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:28: warning: excess elements in scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:292:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:40: warning: excess elements in scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:292:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:52: warning: excess elements in scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:292:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:64: warning: excess elements in scalar initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:292:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:292:3: warning: excess elements in array initializer
+  292 |   {0x1a1614b1, 0x0c9d7a9b, 0x2d8961b8, 0x7a1241f5, 0x7fc23f45, 0x3a781f92},
+      |   ^
+../src/helloworld.c:292:3: note: (near initialization for 'C')
+../src/helloworld.c:293:3: warning: braces around scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |   ^
+../src/helloworld.c:293:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:16: warning: excess elements in scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:293:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:28: warning: excess elements in scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:293:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:40: warning: excess elements in scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:293:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:52: warning: excess elements in scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:293:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:64: warning: excess elements in scalar initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:293:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:293:3: warning: excess elements in array initializer
+  293 |   {0x6a1f2c1a, 0x26e52617, 0x59892458, 0x56210faa, 0x14e47977, 0x208f609b},
+      |   ^
+../src/helloworld.c:293:3: note: (near initialization for 'C')
+../src/helloworld.c:294:3: warning: braces around scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |   ^
+../src/helloworld.c:294:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:16: warning: excess elements in scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |                ^~~~~~~~~~
+../src/helloworld.c:294:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:28: warning: excess elements in scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:294:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:40: warning: excess elements in scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:294:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:52: warning: excess elements in scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:294:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:64: warning: excess elements in scalar initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:294:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:294:3: warning: excess elements in array initializer
+  294 |   {0x13b35cf9, 0x670d2836, 0x30066f5d, 0x45033ccc, 0x4397025d, 0x120024e0},
+      |   ^
+../src/helloworld.c:294:3: note: (near initialization for 'C')
+../src/helloworld.c:295:3: warning: braces around scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |   ^
+../src/helloworld.c:295:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:16: warning: excess elements in scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |                ^~~~~~~~~~
+../src/helloworld.c:295:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:28: warning: excess elements in scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:295:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:40: warning: excess elements in scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:295:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:52: warning: excess elements in scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:295:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:64: warning: excess elements in scalar initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:295:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:295:3: warning: excess elements in array initializer
+  295 |   {0x44073874, 0x3b3f6638, 0x6b5c288c, 0x66171d52, 0x3c6359c2, 0x645048bc},
+      |   ^
+../src/helloworld.c:295:3: note: (near initialization for 'C')
+../src/helloworld.c:296:3: warning: braces around scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |   ^
+../src/helloworld.c:296:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:16: warning: excess elements in scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |                ^~~~~~~~~~
+../src/helloworld.c:296:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:28: warning: excess elements in scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:296:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:40: warning: excess elements in scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:296:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:52: warning: excess elements in scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:296:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:64: warning: excess elements in scalar initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:296:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:296:3: warning: excess elements in array initializer
+  296 |   {0x19f55bc8, 0x209f3924, 0x5fe56dd1, 0x44ec1dee, 0x77de5991, 0x10eb0db8},
+      |   ^
+../src/helloworld.c:296:3: note: (near initialization for 'C')
+../src/helloworld.c:297:3: warning: braces around scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |   ^
+../src/helloworld.c:297:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:16: warning: excess elements in scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |                ^~~~~~~~~~
+../src/helloworld.c:297:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:28: warning: excess elements in scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:297:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:40: warning: excess elements in scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:297:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:52: warning: excess elements in scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:297:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:64: warning: excess elements in scalar initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:297:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:297:3: warning: excess elements in array initializer
+  297 |   {0x3630435c, 0x44f817d0, 0x15e97266, 0x7b6f5ce9, 0x1749482e, 0x47ea53ea},
+      |   ^
+../src/helloworld.c:297:3: note: (near initialization for 'C')
+../src/helloworld.c:298:3: warning: braces around scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |   ^
+../src/helloworld.c:298:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:16: warning: excess elements in scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |                ^~~~~~~~~~
+../src/helloworld.c:298:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:28: warning: excess elements in scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:298:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:40: warning: excess elements in scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:298:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:52: warning: excess elements in scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:298:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:64: warning: excess elements in scalar initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:298:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:298:3: warning: excess elements in array initializer
+  298 |   {0x1e8e0183, 0x611233a0, 0x5f542c06, 0x38ca15e6, 0x58c435de, 0x6ef21071},
+      |   ^
+../src/helloworld.c:298:3: note: (near initialization for 'C')
+../src/helloworld.c:299:3: warning: braces around scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |   ^
+../src/helloworld.c:299:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:16: warning: excess elements in scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |                ^~~~~~~~~~
+../src/helloworld.c:299:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:28: warning: excess elements in scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:299:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:40: warning: excess elements in scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:299:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:52: warning: excess elements in scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:299:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:64: warning: excess elements in scalar initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:299:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:299:3: warning: excess elements in array initializer
+  299 |   {0x051f48c6, 0x6ff378b6, 0x19d07986, 0x46e66db6, 0x2fd04f87, 0x06757256},
+      |   ^
+../src/helloworld.c:299:3: note: (near initialization for 'C')
+../src/helloworld.c:300:3: warning: braces around scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |   ^
+../src/helloworld.c:300:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:16: warning: excess elements in scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |                ^~~~~~~~~~
+../src/helloworld.c:300:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:28: warning: excess elements in scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:300:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:40: warning: excess elements in scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:300:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:52: warning: excess elements in scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:300:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:64: warning: excess elements in scalar initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:300:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:300:3: warning: excess elements in array initializer
+  300 |   {0x512754b4, 0x2a5c5f49, 0x1af86991, 0x2e4f391e, 0x49686367, 0x770379c0},
+      |   ^
+../src/helloworld.c:300:3: note: (near initialization for 'C')
+../src/helloworld.c:301:3: warning: braces around scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |   ^
+../src/helloworld.c:301:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:16: warning: excess elements in scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |                ^~~~~~~~~~
+../src/helloworld.c:301:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:28: warning: excess elements in scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:301:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:40: warning: excess elements in scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:301:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:52: warning: excess elements in scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:301:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:64: warning: excess elements in scalar initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:301:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:301:3: warning: excess elements in array initializer
+  301 |   {0x422d2e29, 0x77266988, 0x3d05758e, 0x68d0703f, 0x1e0b211c, 0x7b2103f5},
+      |   ^
+../src/helloworld.c:301:3: note: (near initialization for 'C')
+../src/helloworld.c:302:3: warning: braces around scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |   ^
+../src/helloworld.c:302:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:16: warning: excess elements in scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |                ^~~~~~~~~~
+../src/helloworld.c:302:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:28: warning: excess elements in scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:302:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:40: warning: excess elements in scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:302:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:52: warning: excess elements in scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:302:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:64: warning: excess elements in scalar initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:302:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:302:3: warning: excess elements in array initializer
+  302 |   {0x34da3189, 0x26285ca5, 0x4f68462e, 0x3f5f4766, 0x495c28f1, 0x34bf2442},
+      |   ^
+../src/helloworld.c:302:3: note: (near initialization for 'C')
+../src/helloworld.c:303:3: warning: braces around scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |   ^
+../src/helloworld.c:303:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:16: warning: excess elements in scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |                ^~~~~~~~~~
+../src/helloworld.c:303:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:28: warning: excess elements in scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:303:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:40: warning: excess elements in scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:303:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:52: warning: excess elements in scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:303:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:64: warning: excess elements in scalar initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:303:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:303:3: warning: excess elements in array initializer
+  303 |   {0x650675ff, 0x361b3926, 0x545241a4, 0x729201d3, 0x015d283f, 0x12b00400},
+      |   ^
+../src/helloworld.c:303:3: note: (near initialization for 'C')
+../src/helloworld.c:304:3: warning: braces around scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |   ^
+../src/helloworld.c:304:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:16: warning: excess elements in scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |                ^~~~~~~~~~
+../src/helloworld.c:304:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:28: warning: excess elements in scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:304:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:40: warning: excess elements in scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:304:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:52: warning: excess elements in scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:304:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:64: warning: excess elements in scalar initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:304:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:304:3: warning: excess elements in array initializer
+  304 |   {0x05b81954, 0x43514c9a, 0x5eaf4138, 0x1f940373, 0x3a297766, 0x71fb7ff7},
+      |   ^
+../src/helloworld.c:304:3: note: (near initialization for 'C')
+../src/helloworld.c:305:3: warning: braces around scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |   ^
+../src/helloworld.c:305:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:16: warning: excess elements in scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |                ^~~~~~~~~~
+../src/helloworld.c:305:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:28: warning: excess elements in scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:305:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:40: warning: excess elements in scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:305:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:52: warning: excess elements in scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:305:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:64: warning: excess elements in scalar initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:305:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:305:3: warning: excess elements in array initializer
+  305 |   {0x352a0347, 0x0a710036, 0x1cd24ff5, 0x38274802, 0x49fe2dc8, 0x0cf74474},
+      |   ^
+../src/helloworld.c:305:3: note: (near initialization for 'C')
+../src/helloworld.c:306:3: warning: braces around scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |   ^
+../src/helloworld.c:306:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:16: warning: excess elements in scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |                ^~~~~~~~~~
+../src/helloworld.c:306:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:28: warning: excess elements in scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:306:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:40: warning: excess elements in scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:306:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:52: warning: excess elements in scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:306:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:64: warning: excess elements in scalar initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:306:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:306:3: warning: excess elements in array initializer
+  306 |   {0x6e43120a, 0x236a07f5, 0x75cc4933, 0x79bd1a5c, 0x74c92954, 0x044029c3},
+      |   ^
+../src/helloworld.c:306:3: note: (near initialization for 'C')
+../src/helloworld.c:307:3: warning: braces around scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |   ^
+../src/helloworld.c:307:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:16: warning: excess elements in scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |                ^~~~~~~~~~
+../src/helloworld.c:307:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:28: warning: excess elements in scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:307:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:40: warning: excess elements in scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:307:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:52: warning: excess elements in scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:307:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:64: warning: excess elements in scalar initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:307:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:307:3: warning: excess elements in array initializer
+  307 |   {0x036e6d04, 0x055a0ca0, 0x65752d2e, 0x719e0c21, 0x527b0b91, 0x0e623991},
+      |   ^
+../src/helloworld.c:307:3: note: (near initialization for 'C')
+../src/helloworld.c:308:3: warning: braces around scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |   ^
+../src/helloworld.c:308:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:16: warning: excess elements in scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |                ^~~~~~~~~~
+../src/helloworld.c:308:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:28: warning: excess elements in scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:308:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:40: warning: excess elements in scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:308:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:52: warning: excess elements in scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:308:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:64: warning: excess elements in scalar initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:308:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:308:3: warning: excess elements in array initializer
+  308 |   {0x0cf315c6, 0x583866e5, 0x02345b44, 0x1d591b1d, 0x2f2d526d, 0x6a4d12ee},
+      |   ^
+../src/helloworld.c:308:3: note: (near initialization for 'C')
+../src/helloworld.c:309:3: warning: braces around scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |   ^
+../src/helloworld.c:309:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:16: warning: excess elements in scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |                ^~~~~~~~~~
+../src/helloworld.c:309:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:28: warning: excess elements in scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:309:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:40: warning: excess elements in scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:309:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:52: warning: excess elements in scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:309:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:64: warning: excess elements in scalar initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:309:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:309:3: warning: excess elements in array initializer
+  309 |   {0x337a61bd, 0x6d1d5d12, 0x08811403, 0x2c9866c8, 0x49346ffa, 0x016f555d},
+      |   ^
+../src/helloworld.c:309:3: note: (near initialization for 'C')
+../src/helloworld.c:310:3: warning: braces around scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |   ^
+../src/helloworld.c:310:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:16: warning: excess elements in scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |                ^~~~~~~~~~
+../src/helloworld.c:310:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:28: warning: excess elements in scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:310:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:40: warning: excess elements in scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:310:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:52: warning: excess elements in scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:310:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:64: warning: excess elements in scalar initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:310:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:310:3: warning: excess elements in array initializer
+  310 |   {0x49b21246, 0x7134187e, 0x774c32b5, 0x7c1e7e16, 0x31b71f07, 0x399338a3},
+      |   ^
+../src/helloworld.c:310:3: note: (near initialization for 'C')
+../src/helloworld.c:311:3: warning: braces around scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |   ^
+../src/helloworld.c:311:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:16: warning: excess elements in scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |                ^~~~~~~~~~
+../src/helloworld.c:311:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:28: warning: excess elements in scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:311:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:40: warning: excess elements in scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:311:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:52: warning: excess elements in scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:311:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:64: warning: excess elements in scalar initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:311:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:311:3: warning: excess elements in array initializer
+  311 |   {0x154a1afd, 0x0e942c7c, 0x350e10aa, 0x0dcc7b56, 0x69de3164, 0x48307320},
+      |   ^
+../src/helloworld.c:311:3: note: (near initialization for 'C')
+../src/helloworld.c:312:3: warning: braces around scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |   ^
+../src/helloworld.c:312:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:16: warning: excess elements in scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |                ^~~~~~~~~~
+../src/helloworld.c:312:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:28: warning: excess elements in scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:312:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:40: warning: excess elements in scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:312:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:52: warning: excess elements in scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:312:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:64: warning: excess elements in scalar initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:312:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:312:3: warning: excess elements in array initializer
+  312 |   {0x7b62786b, 0x590b0a38, 0x63f20875, 0x77773c8a, 0x5cbf439b, 0x5bb66b73},
+      |   ^
+../src/helloworld.c:312:3: note: (near initialization for 'C')
+../src/helloworld.c:313:3: warning: braces around scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |   ^
+../src/helloworld.c:313:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:16: warning: excess elements in scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |                ^~~~~~~~~~
+../src/helloworld.c:313:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:28: warning: excess elements in scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:313:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:40: warning: excess elements in scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:313:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:52: warning: excess elements in scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:313:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:64: warning: excess elements in scalar initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:313:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:313:3: warning: excess elements in array initializer
+  313 |   {0x0eaf60d2, 0x5ead0d93, 0x0887345e, 0x6285436a, 0x070131b7, 0x3dcc52e7},
+      |   ^
+../src/helloworld.c:313:3: note: (near initialization for 'C')
+../src/helloworld.c:314:3: warning: braces around scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |   ^
+../src/helloworld.c:314:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:16: warning: excess elements in scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |                ^~~~~~~~~~
+../src/helloworld.c:314:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:28: warning: excess elements in scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:314:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:40: warning: excess elements in scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:314:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:52: warning: excess elements in scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:314:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:64: warning: excess elements in scalar initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:314:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:314:3: warning: excess elements in array initializer
+  314 |   {0x5d545bbb, 0x03205f70, 0x57f36294, 0x7dff7823, 0x7e0f7c48, 0x1c1026d1},
+      |   ^
+../src/helloworld.c:314:3: note: (near initialization for 'C')
+../src/helloworld.c:315:3: warning: braces around scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |   ^
+../src/helloworld.c:315:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:16: warning: excess elements in scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |                ^~~~~~~~~~
+../src/helloworld.c:315:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:28: warning: excess elements in scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:315:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:40: warning: excess elements in scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:315:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:52: warning: excess elements in scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:315:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:64: warning: excess elements in scalar initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:315:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:315:3: warning: excess elements in array initializer
+  315 |   {0x14cd1d50, 0x6beb164f, 0x782e58df, 0x02206a6a, 0x637a51df, 0x07fc2504},
+      |   ^
+../src/helloworld.c:315:3: note: (near initialization for 'C')
+../src/helloworld.c:316:3: warning: braces around scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |   ^
+../src/helloworld.c:316:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:16: warning: excess elements in scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |                ^~~~~~~~~~
+../src/helloworld.c:316:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:28: warning: excess elements in scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:316:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:40: warning: excess elements in scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:316:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:52: warning: excess elements in scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:316:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:64: warning: excess elements in scalar initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:316:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:316:3: warning: excess elements in array initializer
+  316 |   {0x54d121e1, 0x690778e4, 0x199473c8, 0x7909326b, 0x76691c4f, 0x05307895},
+      |   ^
+../src/helloworld.c:316:3: note: (near initialization for 'C')
+../src/helloworld.c:317:3: warning: braces around scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |   ^
+../src/helloworld.c:317:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:16: warning: excess elements in scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:317:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:28: warning: excess elements in scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:317:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:40: warning: excess elements in scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:317:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:52: warning: excess elements in scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:317:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:64: warning: excess elements in scalar initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:317:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:317:3: warning: excess elements in array initializer
+  317 |   {0x759d000e, 0x1fe41b6f, 0x0a9673ef, 0x7f9138fe, 0x5bf87548, 0x3890258b},
+      |   ^
+../src/helloworld.c:317:3: note: (near initialization for 'C')
+../src/helloworld.c:318:3: warning: braces around scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |   ^
+../src/helloworld.c:318:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:16: warning: excess elements in scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:318:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:28: warning: excess elements in scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:318:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:40: warning: excess elements in scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:318:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:52: warning: excess elements in scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:318:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:64: warning: excess elements in scalar initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:318:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:318:3: warning: excess elements in array initializer
+  318 |   {0x06934229, 0x580a0c3a, 0x2b0c0aed, 0x0a191452, 0x2efe2d97, 0x0e55787b},
+      |   ^
+../src/helloworld.c:318:3: note: (near initialization for 'C')
+../src/helloworld.c:319:3: warning: braces around scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |   ^
+../src/helloworld.c:319:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:16: warning: excess elements in scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |                ^~~~~~~~~~
+../src/helloworld.c:319:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:28: warning: excess elements in scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:319:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:40: warning: excess elements in scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:319:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:52: warning: excess elements in scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:319:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:64: warning: excess elements in scalar initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:319:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:319:3: warning: excess elements in array initializer
+  319 |   {0x716a31a5, 0x50c37bf2, 0x61287ad4, 0x2ade1093, 0x60801568, 0x3eea47d4},
+      |   ^
+../src/helloworld.c:319:3: note: (near initialization for 'C')
+../src/helloworld.c:320:3: warning: braces around scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |   ^
+../src/helloworld.c:320:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:16: warning: excess elements in scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |                ^~~~~~~~~~
+../src/helloworld.c:320:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:28: warning: excess elements in scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:320:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:40: warning: excess elements in scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:320:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:52: warning: excess elements in scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:320:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:64: warning: excess elements in scalar initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:320:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:320:3: warning: excess elements in array initializer
+  320 |   {0x3c4b1506, 0x0ea64b77, 0x2006127f, 0x186a45ac, 0x5ef72028, 0x18f54fa3},
+      |   ^
+../src/helloworld.c:320:3: note: (near initialization for 'C')
+../src/helloworld.c:321:3: warning: braces around scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |   ^
+../src/helloworld.c:321:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:16: warning: excess elements in scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |                ^~~~~~~~~~
+../src/helloworld.c:321:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:28: warning: excess elements in scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:321:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:40: warning: excess elements in scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:321:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:52: warning: excess elements in scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:321:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:64: warning: excess elements in scalar initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:321:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:321:3: warning: excess elements in array initializer
+  321 |   {0x24561736, 0x22c57c9d, 0x11a155db, 0x62a076db, 0x3deb6534, 0x298071fd},
+      |   ^
+../src/helloworld.c:321:3: note: (near initialization for 'C')
+../src/helloworld.c:322:3: warning: braces around scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |   ^
+../src/helloworld.c:322:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:16: warning: excess elements in scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |                ^~~~~~~~~~
+../src/helloworld.c:322:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:28: warning: excess elements in scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:322:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:40: warning: excess elements in scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:322:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:52: warning: excess elements in scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:322:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:64: warning: excess elements in scalar initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:322:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:322:3: warning: excess elements in array initializer
+  322 |   {0x1a1b338e, 0x2a0c1c8a, 0x43212020, 0x2e6954b2, 0x20ee09b1, 0x3e3a5011},
+      |   ^
+../src/helloworld.c:322:3: note: (near initialization for 'C')
+../src/helloworld.c:323:3: warning: braces around scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |   ^
+../src/helloworld.c:323:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:16: warning: excess elements in scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |                ^~~~~~~~~~
+../src/helloworld.c:323:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:28: warning: excess elements in scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:323:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:40: warning: excess elements in scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:323:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:52: warning: excess elements in scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:323:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:64: warning: excess elements in scalar initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:323:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:323:3: warning: excess elements in array initializer
+  323 |   {0x3fd425e4, 0x39bd337a, 0x4f9063d1, 0x35863149, 0x376504a7, 0x375c4867},
+      |   ^
+../src/helloworld.c:323:3: note: (near initialization for 'C')
+../src/helloworld.c:324:3: warning: braces around scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |   ^
+../src/helloworld.c:324:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:16: warning: excess elements in scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |                ^~~~~~~~~~
+../src/helloworld.c:324:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:28: warning: excess elements in scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:324:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:40: warning: excess elements in scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:324:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:52: warning: excess elements in scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:324:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:64: warning: excess elements in scalar initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:324:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:324:3: warning: excess elements in array initializer
+  324 |   {0x241a66fa, 0x63a260c1, 0x0b711416, 0x27372d7f, 0x58747505, 0x6c821c2c},
+      |   ^
+../src/helloworld.c:324:3: note: (near initialization for 'C')
+../src/helloworld.c:325:3: warning: braces around scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |   ^
+../src/helloworld.c:325:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:16: warning: excess elements in scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |                ^~~~~~~~~~
+../src/helloworld.c:325:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:28: warning: excess elements in scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:325:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:40: warning: excess elements in scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:325:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:52: warning: excess elements in scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:325:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:64: warning: excess elements in scalar initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:325:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:325:3: warning: excess elements in array initializer
+  325 |   {0x142e4654, 0x3a930355, 0x65db0d8a, 0x53d47097, 0x6fee4440, 0x399d0937},
+      |   ^
+../src/helloworld.c:325:3: note: (near initialization for 'C')
+../src/helloworld.c:326:3: warning: braces around scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |   ^
+../src/helloworld.c:326:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:16: warning: excess elements in scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |                ^~~~~~~~~~
+../src/helloworld.c:326:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:28: warning: excess elements in scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:326:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:40: warning: excess elements in scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:326:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:52: warning: excess elements in scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:326:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:64: warning: excess elements in scalar initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:326:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:326:3: warning: excess elements in array initializer
+  326 |   {0x13d52829, 0x1e824c50, 0x61fe48cc, 0x2c282192, 0x678a4198, 0x54dc5e41},
+      |   ^
+../src/helloworld.c:326:3: note: (near initialization for 'C')
+../src/helloworld.c:327:3: warning: braces around scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |   ^
+../src/helloworld.c:327:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:16: warning: excess elements in scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |                ^~~~~~~~~~
+../src/helloworld.c:327:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:28: warning: excess elements in scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:327:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:40: warning: excess elements in scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:327:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:52: warning: excess elements in scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:327:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:64: warning: excess elements in scalar initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:327:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:327:3: warning: excess elements in array initializer
+  327 |   {0x69ff4831, 0x1cbf273f, 0x0039695c, 0x50de0c42, 0x23da7883, 0x44f577d4},
+      |   ^
+../src/helloworld.c:327:3: note: (near initialization for 'C')
+../src/helloworld.c:328:3: warning: braces around scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |   ^
+../src/helloworld.c:328:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:16: warning: excess elements in scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |                ^~~~~~~~~~
+../src/helloworld.c:328:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:28: warning: excess elements in scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:328:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:40: warning: excess elements in scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:328:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:52: warning: excess elements in scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:328:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:64: warning: excess elements in scalar initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:328:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:328:3: warning: excess elements in array initializer
+  328 |   {0x7dca2f1c, 0x44f84dcf, 0x3742524e, 0x02487f51, 0x342a1304, 0x28901000},
+      |   ^
+../src/helloworld.c:328:3: note: (near initialization for 'C')
+../src/helloworld.c:329:3: warning: braces around scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |   ^
+../src/helloworld.c:329:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:16: warning: excess elements in scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |                ^~~~~~~~~~
+../src/helloworld.c:329:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:28: warning: excess elements in scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:329:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:40: warning: excess elements in scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:329:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:52: warning: excess elements in scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:329:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:64: warning: excess elements in scalar initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:329:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:329:3: warning: excess elements in array initializer
+  329 |   {0x2bb765ac, 0x4bd04e0e, 0x44b76ea2, 0x34904e0b, 0x32535d75, 0x332b586d},
+      |   ^
+../src/helloworld.c:329:3: note: (near initialization for 'C')
+../src/helloworld.c:330:3: warning: braces around scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |   ^
+../src/helloworld.c:330:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:16: warning: excess elements in scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |                ^~~~~~~~~~
+../src/helloworld.c:330:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:28: warning: excess elements in scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:330:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:40: warning: excess elements in scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:330:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:52: warning: excess elements in scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:330:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:64: warning: excess elements in scalar initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:330:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:330:3: warning: excess elements in array initializer
+  330 |   {0x46ee127a, 0x760605ba, 0x68ae4dcf, 0x27d33982, 0x7dbe5088, 0x269651fc},
+      |   ^
+../src/helloworld.c:330:3: note: (near initialization for 'C')
+../src/helloworld.c:331:3: warning: braces around scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |   ^
+../src/helloworld.c:331:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:16: warning: excess elements in scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |                ^~~~~~~~~~
+../src/helloworld.c:331:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:28: warning: excess elements in scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:331:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:40: warning: excess elements in scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:331:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:52: warning: excess elements in scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:331:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:64: warning: excess elements in scalar initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:331:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:331:3: warning: excess elements in array initializer
+  331 |   {0x5f1c56f6, 0x18e945d9, 0x3d35393c, 0x5ce84d76, 0x76d40a22, 0x74997b72},
+      |   ^
+../src/helloworld.c:331:3: note: (near initialization for 'C')
+../src/helloworld.c:332:3: warning: braces around scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |   ^
+../src/helloworld.c:332:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:16: warning: excess elements in scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |                ^~~~~~~~~~
+../src/helloworld.c:332:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:28: warning: excess elements in scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:332:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:40: warning: excess elements in scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:332:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:52: warning: excess elements in scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:332:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:64: warning: excess elements in scalar initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:332:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:332:3: warning: excess elements in array initializer
+  332 |   {0x6a26770c, 0x02e14df2, 0x76234126, 0x41ba1ed1, 0x02a53485, 0x791b532c},
+      |   ^
+../src/helloworld.c:332:3: note: (near initialization for 'C')
+../src/helloworld.c:333:3: warning: braces around scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |   ^
+../src/helloworld.c:333:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:16: warning: excess elements in scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |                ^~~~~~~~~~
+../src/helloworld.c:333:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:28: warning: excess elements in scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:333:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:40: warning: excess elements in scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:333:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:52: warning: excess elements in scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:333:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:64: warning: excess elements in scalar initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:333:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:333:3: warning: excess elements in array initializer
+  333 |   {0x6ec575c7, 0x7c40377e, 0x10e85d0c, 0x2f785b4d, 0x72ae7419, 0x31ad5919},
+      |   ^
+../src/helloworld.c:333:3: note: (near initialization for 'C')
+../src/helloworld.c:334:3: warning: braces around scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |   ^
+../src/helloworld.c:334:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:16: warning: excess elements in scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |                ^~~~~~~~~~
+../src/helloworld.c:334:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:28: warning: excess elements in scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:334:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:40: warning: excess elements in scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:334:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:52: warning: excess elements in scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:334:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:64: warning: excess elements in scalar initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:334:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:334:3: warning: excess elements in array initializer
+  334 |   {0x0dd04f3f, 0x3c735139, 0x077b0a4a, 0x5923214f, 0x75b36c02, 0x6302486e},
+      |   ^
+../src/helloworld.c:334:3: note: (near initialization for 'C')
+../src/helloworld.c:335:3: warning: braces around scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |   ^
+../src/helloworld.c:335:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:16: warning: excess elements in scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |                ^~~~~~~~~~
+../src/helloworld.c:335:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:28: warning: excess elements in scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:335:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:40: warning: excess elements in scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:335:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:52: warning: excess elements in scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:335:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:64: warning: excess elements in scalar initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:335:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:335:3: warning: excess elements in array initializer
+  335 |   {0x43a070d8, 0x26a0721d, 0x0dd84979, 0x1ae67d1c, 0x468502ec, 0x3c693cd9},
+      |   ^
+../src/helloworld.c:335:3: note: (near initialization for 'C')
+../src/helloworld.c:336:3: warning: braces around scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |   ^
+../src/helloworld.c:336:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:16: warning: excess elements in scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |                ^~~~~~~~~~
+../src/helloworld.c:336:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:28: warning: excess elements in scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:336:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:40: warning: excess elements in scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:336:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:52: warning: excess elements in scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:336:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:64: warning: excess elements in scalar initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:336:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:336:3: warning: excess elements in array initializer
+  336 |   {0x69392aa7, 0x10d932b7, 0x42005edb, 0x68e82df0, 0x43b04628, 0x3d5f7401},
+      |   ^
+../src/helloworld.c:336:3: note: (near initialization for 'C')
+../src/helloworld.c:337:3: warning: braces around scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |   ^
+../src/helloworld.c:337:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:16: warning: excess elements in scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |                ^~~~~~~~~~
+../src/helloworld.c:337:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:28: warning: excess elements in scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:337:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:40: warning: excess elements in scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:337:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:52: warning: excess elements in scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:337:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:64: warning: excess elements in scalar initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:337:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:337:3: warning: excess elements in array initializer
+  337 |   {0x2e6b0f6a, 0x62e6469c, 0x02613ced, 0x686e78b4, 0x7bd133b3, 0x51e500ef},
+      |   ^
+../src/helloworld.c:337:3: note: (near initialization for 'C')
+../src/helloworld.c:338:3: warning: braces around scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |   ^
+../src/helloworld.c:338:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:16: warning: excess elements in scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |                ^~~~~~~~~~
+../src/helloworld.c:338:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:28: warning: excess elements in scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:338:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:40: warning: excess elements in scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:338:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:52: warning: excess elements in scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:338:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:64: warning: excess elements in scalar initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:338:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:338:3: warning: excess elements in array initializer
+  338 |   {0x7a261578, 0x78e54579, 0x6df15b9b, 0x3b15140a, 0x28d673c4, 0x44fb3d09},
+      |   ^
+../src/helloworld.c:338:3: note: (near initialization for 'C')
+../src/helloworld.c:339:3: warning: braces around scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |   ^
+../src/helloworld.c:339:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:16: warning: excess elements in scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |                ^~~~~~~~~~
+../src/helloworld.c:339:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:28: warning: excess elements in scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:339:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:40: warning: excess elements in scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:339:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:52: warning: excess elements in scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:339:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:64: warning: excess elements in scalar initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:339:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:339:3: warning: excess elements in array initializer
+  339 |   {0x213c04c0, 0x47867324, 0x66b44858, 0x5d5d6faa, 0x1e604c89, 0x2bcb59de},
+      |   ^
+../src/helloworld.c:339:3: note: (near initialization for 'C')
+../src/helloworld.c:340:3: warning: braces around scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |   ^
+../src/helloworld.c:340:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:16: warning: excess elements in scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |                ^~~~~~~~~~
+../src/helloworld.c:340:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:28: warning: excess elements in scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:340:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:40: warning: excess elements in scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:340:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:52: warning: excess elements in scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:340:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:64: warning: excess elements in scalar initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:340:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:340:3: warning: excess elements in array initializer
+  340 |   {0x0a4d080c, 0x359c53ef, 0x6c0223ee, 0x166c7cdb, 0x165556ca, 0x37d5570d},
+      |   ^
+../src/helloworld.c:340:3: note: (near initialization for 'C')
+../src/helloworld.c:341:3: warning: braces around scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |   ^
+../src/helloworld.c:341:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:16: warning: excess elements in scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |                ^~~~~~~~~~
+../src/helloworld.c:341:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:28: warning: excess elements in scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:341:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:40: warning: excess elements in scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:341:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:52: warning: excess elements in scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:341:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:64: warning: excess elements in scalar initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:341:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:341:3: warning: excess elements in array initializer
+  341 |   {0x38fb539f, 0x38051ea0, 0x565562ad, 0x2c950ad7, 0x25d1200b, 0x61d831e9},
+      |   ^
+../src/helloworld.c:341:3: note: (near initialization for 'C')
+../src/helloworld.c:342:3: warning: braces around scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |   ^
+../src/helloworld.c:342:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:16: warning: excess elements in scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |                ^~~~~~~~~~
+../src/helloworld.c:342:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:28: warning: excess elements in scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:342:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:40: warning: excess elements in scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:342:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:52: warning: excess elements in scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:342:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:64: warning: excess elements in scalar initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:342:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:342:3: warning: excess elements in array initializer
+  342 |   {0x04db6663, 0x5db6776c, 0x7adb1160, 0x3be27301, 0x67d161ce, 0x429d797a},
+      |   ^
+../src/helloworld.c:342:3: note: (near initialization for 'C')
+../src/helloworld.c:343:3: warning: braces around scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |   ^
+../src/helloworld.c:343:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:16: warning: excess elements in scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |                ^~~~~~~~~~
+../src/helloworld.c:343:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:28: warning: excess elements in scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:343:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:40: warning: excess elements in scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:343:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:52: warning: excess elements in scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:343:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:64: warning: excess elements in scalar initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:343:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:343:3: warning: excess elements in array initializer
+  343 |   {0x16e541d2, 0x367e6443, 0x599d0c62, 0x380e35d7, 0x2f1860dd, 0x1b5f1499},
+      |   ^
+../src/helloworld.c:343:3: note: (near initialization for 'C')
+../src/helloworld.c:344:3: warning: braces around scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |   ^
+../src/helloworld.c:344:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:16: warning: excess elements in scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |                ^~~~~~~~~~
+../src/helloworld.c:344:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:28: warning: excess elements in scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:344:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:40: warning: excess elements in scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:344:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:52: warning: excess elements in scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:344:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:64: warning: excess elements in scalar initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:344:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:344:3: warning: excess elements in array initializer
+  344 |   {0x1bee0f9c, 0x3b237fa8, 0x4c96731e, 0x34217a01, 0x68e1078b, 0x3e39271f},
+      |   ^
+../src/helloworld.c:344:3: note: (near initialization for 'C')
+../src/helloworld.c:345:3: warning: braces around scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |   ^
+../src/helloworld.c:345:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:16: warning: excess elements in scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:345:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:28: warning: excess elements in scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:345:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:40: warning: excess elements in scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:345:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:52: warning: excess elements in scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:345:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:64: warning: excess elements in scalar initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:345:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:345:3: warning: excess elements in array initializer
+  345 |   {0x0a095baa, 0x05206f01, 0x7f3702f3, 0x22516a8c, 0x05fe0527, 0x10c72a3b},
+      |   ^
+../src/helloworld.c:345:3: note: (near initialization for 'C')
+../src/helloworld.c:346:3: warning: braces around scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |   ^
+../src/helloworld.c:346:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:16: warning: excess elements in scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |                ^~~~~~~~~~
+../src/helloworld.c:346:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:28: warning: excess elements in scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:346:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:40: warning: excess elements in scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:346:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:52: warning: excess elements in scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:346:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:64: warning: excess elements in scalar initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:346:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:346:3: warning: excess elements in array initializer
+  346 |   {0x3e1a7d7f, 0x78826a3f, 0x6c435d7a, 0x6d0635c3, 0x2a8f3a5e, 0x3d4305b1},
+      |   ^
+../src/helloworld.c:346:3: note: (near initialization for 'C')
+../src/helloworld.c:347:3: warning: braces around scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |   ^
+../src/helloworld.c:347:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:16: warning: excess elements in scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |                ^~~~~~~~~~
+../src/helloworld.c:347:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:28: warning: excess elements in scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:347:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:40: warning: excess elements in scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:347:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:52: warning: excess elements in scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:347:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:64: warning: excess elements in scalar initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:347:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:347:3: warning: excess elements in array initializer
+  347 |   {0x08cc0778, 0x17ac2513, 0x45a5045e, 0x2ffd0c9b, 0x7ea03a12, 0x5d0a4361},
+      |   ^
+../src/helloworld.c:347:3: note: (near initialization for 'C')
+../src/helloworld.c:348:3: warning: braces around scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |   ^
+../src/helloworld.c:348:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:16: warning: excess elements in scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |                ^~~~~~~~~~
+../src/helloworld.c:348:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:28: warning: excess elements in scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:348:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:40: warning: excess elements in scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:348:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:52: warning: excess elements in scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:348:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:64: warning: excess elements in scalar initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:348:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:348:3: warning: excess elements in array initializer
+  348 |   {0x5be773f5, 0x1eaa6a31, 0x73660969, 0x27232212, 0x28dd7bca, 0x69874546},
+      |   ^
+../src/helloworld.c:348:3: note: (near initialization for 'C')
+../src/helloworld.c:349:3: warning: braces around scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |   ^
+../src/helloworld.c:349:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:16: warning: excess elements in scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |                ^~~~~~~~~~
+../src/helloworld.c:349:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:28: warning: excess elements in scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:349:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:40: warning: excess elements in scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:349:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:52: warning: excess elements in scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:349:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:64: warning: excess elements in scalar initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:349:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:349:3: warning: excess elements in array initializer
+  349 |   {0x7a672914, 0x54f96375, 0x54bb22a5, 0x794454ec, 0x1eed674e, 0x1f36745f},
+      |   ^
+../src/helloworld.c:349:3: note: (near initialization for 'C')
+../src/helloworld.c:350:3: warning: braces around scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |   ^
+../src/helloworld.c:350:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:16: warning: excess elements in scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |                ^~~~~~~~~~
+../src/helloworld.c:350:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:28: warning: excess elements in scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:350:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:40: warning: excess elements in scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:350:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:52: warning: excess elements in scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:350:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:64: warning: excess elements in scalar initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:350:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:350:3: warning: excess elements in array initializer
+  350 |   {0x7d4f408c, 0x62247f62, 0x0f754406, 0x333c5a1f, 0x403c7bf4, 0x318617dc},
+      |   ^
+../src/helloworld.c:350:3: note: (near initialization for 'C')
+../src/helloworld.c:351:3: warning: braces around scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |   ^
+../src/helloworld.c:351:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:16: warning: excess elements in scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |                ^~~~~~~~~~
+../src/helloworld.c:351:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:28: warning: excess elements in scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:351:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:40: warning: excess elements in scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:351:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:52: warning: excess elements in scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:351:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:64: warning: excess elements in scalar initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:351:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:351:3: warning: excess elements in array initializer
+  351 |   {0x50665558, 0x28724969, 0x07202751, 0x6b6c4d2d, 0x182b428d, 0x6bee40cd},
+      |   ^
+../src/helloworld.c:351:3: note: (near initialization for 'C')
+../src/helloworld.c:352:3: warning: braces around scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |   ^
+../src/helloworld.c:352:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:16: warning: excess elements in scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |                ^~~~~~~~~~
+../src/helloworld.c:352:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:28: warning: excess elements in scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:352:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:40: warning: excess elements in scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:352:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:52: warning: excess elements in scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:352:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:64: warning: excess elements in scalar initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:352:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:352:3: warning: excess elements in array initializer
+  352 |   {0x274209f5, 0x40ac1e19, 0x575d6e0e, 0x7fcc6ffd, 0x73144926, 0x45f838d1},
+      |   ^
+../src/helloworld.c:352:3: note: (near initialization for 'C')
+../src/helloworld.c:353:3: warning: braces around scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |   ^
+../src/helloworld.c:353:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:16: warning: excess elements in scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |                ^~~~~~~~~~
+../src/helloworld.c:353:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:28: warning: excess elements in scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:353:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:40: warning: excess elements in scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:353:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:52: warning: excess elements in scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:353:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:64: warning: excess elements in scalar initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:353:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:353:3: warning: excess elements in array initializer
+  353 |   {0x702915a3, 0x639513f4, 0x43d206ec, 0x1a515b4d, 0x10717307, 0x0ee8570a},
+      |   ^
+../src/helloworld.c:353:3: note: (near initialization for 'C')
+../src/helloworld.c:354:3: warning: braces around scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |   ^
+../src/helloworld.c:354:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:16: warning: excess elements in scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |                ^~~~~~~~~~
+../src/helloworld.c:354:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:28: warning: excess elements in scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:354:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:40: warning: excess elements in scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:354:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:52: warning: excess elements in scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:354:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:64: warning: excess elements in scalar initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:354:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:354:3: warning: excess elements in array initializer
+  354 |   {0x11242f88, 0x6eb56683, 0x70fc0b64, 0x767f5425, 0x7f410f4e, 0x6744046b},
+      |   ^
+../src/helloworld.c:354:3: note: (near initialization for 'C')
+../src/helloworld.c:355:3: warning: braces around scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |   ^
+../src/helloworld.c:355:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:16: warning: excess elements in scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |                ^~~~~~~~~~
+../src/helloworld.c:355:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:28: warning: excess elements in scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:355:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:40: warning: excess elements in scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:355:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:52: warning: excess elements in scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:355:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:64: warning: excess elements in scalar initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:355:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:355:3: warning: excess elements in array initializer
+  355 |   {0x6c653b58, 0x6f74095e, 0x27a16484, 0x61e05d03, 0x3c2c44f6, 0x1c6f5bb5},
+      |   ^
+../src/helloworld.c:355:3: note: (near initialization for 'C')
+../src/helloworld.c:356:3: warning: braces around scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |   ^
+../src/helloworld.c:356:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:16: warning: excess elements in scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |                ^~~~~~~~~~
+../src/helloworld.c:356:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:28: warning: excess elements in scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:356:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:40: warning: excess elements in scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:356:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:52: warning: excess elements in scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:356:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:64: warning: excess elements in scalar initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:356:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:356:3: warning: excess elements in array initializer
+  356 |   {0x2a4b38bd, 0x14e46c30, 0x06a6628d, 0x29b84cf1, 0x4393677e, 0x03081f50},
+      |   ^
+../src/helloworld.c:356:3: note: (near initialization for 'C')
+../src/helloworld.c:357:3: warning: braces around scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |   ^
+../src/helloworld.c:357:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:16: warning: excess elements in scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |                ^~~~~~~~~~
+../src/helloworld.c:357:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:28: warning: excess elements in scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:357:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:40: warning: excess elements in scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:357:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:52: warning: excess elements in scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:357:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:64: warning: excess elements in scalar initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:357:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:357:3: warning: excess elements in array initializer
+  357 |   {0x0ea2435e, 0x4e3574b4, 0x7eb1252d, 0x579c5346, 0x479d6d1a, 0x52e04533},
+      |   ^
+../src/helloworld.c:357:3: note: (near initialization for 'C')
+../src/helloworld.c:358:3: warning: braces around scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |   ^
+../src/helloworld.c:358:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:16: warning: excess elements in scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |                ^~~~~~~~~~
+../src/helloworld.c:358:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:28: warning: excess elements in scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:358:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:40: warning: excess elements in scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:358:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:52: warning: excess elements in scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:358:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:64: warning: excess elements in scalar initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:358:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:358:3: warning: excess elements in array initializer
+  358 |   {0x6f8454b2, 0x5d930d92, 0x0ca32c33, 0x520b7e22, 0x754b376b, 0x21952e0c},
+      |   ^
+../src/helloworld.c:358:3: note: (near initialization for 'C')
+../src/helloworld.c:359:3: warning: braces around scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |   ^
+../src/helloworld.c:359:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:16: warning: excess elements in scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |                ^~~~~~~~~~
+../src/helloworld.c:359:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:28: warning: excess elements in scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:359:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:40: warning: excess elements in scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:359:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:52: warning: excess elements in scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:359:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:64: warning: excess elements in scalar initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:359:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:359:3: warning: excess elements in array initializer
+  359 |   {0x30bc49a0, 0x6c933147, 0x0dfa137d, 0x0c1a1dd4, 0x10565c34, 0x4c2f472e},
+      |   ^
+../src/helloworld.c:359:3: note: (near initialization for 'C')
+../src/helloworld.c:360:3: warning: braces around scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |   ^
+../src/helloworld.c:360:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:16: warning: excess elements in scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |                ^~~~~~~~~~
+../src/helloworld.c:360:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:28: warning: excess elements in scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:360:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:40: warning: excess elements in scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:360:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:52: warning: excess elements in scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:360:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:64: warning: excess elements in scalar initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:360:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:360:3: warning: excess elements in array initializer
+  360 |   {0x108d69aa, 0x524e5b83, 0x56ad52a4, 0x1bc1005c, 0x25a320f0, 0x23721c90},
+      |   ^
+../src/helloworld.c:360:3: note: (near initialization for 'C')
+../src/helloworld.c:361:3: warning: braces around scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |   ^
+../src/helloworld.c:361:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:16: warning: excess elements in scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |                ^~~~~~~~~~
+../src/helloworld.c:361:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:28: warning: excess elements in scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:361:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:40: warning: excess elements in scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:361:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:52: warning: excess elements in scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:361:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:64: warning: excess elements in scalar initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:361:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:361:3: warning: excess elements in array initializer
+  361 |   {0x66640c8c, 0x435d462d, 0x2cc91310, 0x1c8746ae, 0x2ec2228d, 0x7f614e12},
+      |   ^
+../src/helloworld.c:361:3: note: (near initialization for 'C')
+../src/helloworld.c:362:3: warning: braces around scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |   ^
+../src/helloworld.c:362:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:16: warning: excess elements in scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |                ^~~~~~~~~~
+../src/helloworld.c:362:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:28: warning: excess elements in scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:362:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:40: warning: excess elements in scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:362:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:52: warning: excess elements in scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:362:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:64: warning: excess elements in scalar initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:362:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:362:3: warning: excess elements in array initializer
+  362 |   {0x659a348a, 0x095610be, 0x7d744152, 0x445908a7, 0x1744018b, 0x4ed775b0},
+      |   ^
+../src/helloworld.c:362:3: note: (near initialization for 'C')
+../src/helloworld.c:363:3: warning: braces around scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |   ^
+../src/helloworld.c:363:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:16: warning: excess elements in scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |                ^~~~~~~~~~
+../src/helloworld.c:363:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:28: warning: excess elements in scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:363:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:40: warning: excess elements in scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:363:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:52: warning: excess elements in scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:363:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:64: warning: excess elements in scalar initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:363:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:363:3: warning: excess elements in array initializer
+  363 |   {0x769e0097, 0x48f411bd, 0x2e3f6403, 0x141f5d98, 0x4f9d636e, 0x12110a90},
+      |   ^
+../src/helloworld.c:363:3: note: (near initialization for 'C')
+../src/helloworld.c:364:3: warning: braces around scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |   ^
+../src/helloworld.c:364:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:16: warning: excess elements in scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |                ^~~~~~~~~~
+../src/helloworld.c:364:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:28: warning: excess elements in scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:364:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:40: warning: excess elements in scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:364:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:52: warning: excess elements in scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:364:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:64: warning: excess elements in scalar initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:364:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:364:3: warning: excess elements in array initializer
+  364 |   {0x34d3785c, 0x23231963, 0x141c4453, 0x08031fee, 0x63cf01dd, 0x2d314aa2},
+      |   ^
+../src/helloworld.c:364:3: note: (near initialization for 'C')
+../src/helloworld.c:365:3: warning: braces around scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |   ^
+../src/helloworld.c:365:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:16: warning: excess elements in scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |                ^~~~~~~~~~
+../src/helloworld.c:365:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:28: warning: excess elements in scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:365:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:40: warning: excess elements in scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:365:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:52: warning: excess elements in scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:365:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:64: warning: excess elements in scalar initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:365:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:365:3: warning: excess elements in array initializer
+  365 |   {0x254373b5, 0x32d00515, 0x1acf767b, 0x1db5639c, 0x5d7658a7, 0x79ed0d1d},
+      |   ^
+../src/helloworld.c:365:3: note: (near initialization for 'C')
+../src/helloworld.c:366:3: warning: braces around scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |   ^
+../src/helloworld.c:366:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:16: warning: excess elements in scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |                ^~~~~~~~~~
+../src/helloworld.c:366:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:28: warning: excess elements in scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:366:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:40: warning: excess elements in scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:366:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:52: warning: excess elements in scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:366:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:64: warning: excess elements in scalar initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:366:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:366:3: warning: excess elements in array initializer
+  366 |   {0x47d23dcf, 0x17dc2a75, 0x2dbb77e0, 0x5f256a81, 0x7157352c, 0x38a22a84},
+      |   ^
+../src/helloworld.c:366:3: note: (near initialization for 'C')
+../src/helloworld.c:367:3: warning: braces around scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |   ^
+../src/helloworld.c:367:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:16: warning: excess elements in scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |                ^~~~~~~~~~
+../src/helloworld.c:367:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:28: warning: excess elements in scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |                            ^~~~~~~~~~
+../src/helloworld.c:367:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:40: warning: excess elements in scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:367:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:52: warning: excess elements in scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:367:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:64: warning: excess elements in scalar initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:367:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:367:3: warning: excess elements in array initializer
+  367 |   {0x4c7e40e3, 0x06fa6f96, 0x39c24e1e, 0x05304686, 0x7a32660a, 0x6e387172},
+      |   ^
+../src/helloworld.c:367:3: note: (near initialization for 'C')
+../src/helloworld.c:368:3: warning: braces around scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |   ^
+../src/helloworld.c:368:3: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:16: warning: excess elements in scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |                ^~~~~~~~~~
+../src/helloworld.c:368:16: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:28: warning: excess elements in scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |                            ^~~~~~~~~~
+../src/helloworld.c:368:28: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:40: warning: excess elements in scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |                                        ^~~~~~~~~~
+../src/helloworld.c:368:40: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:52: warning: excess elements in scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |                                                    ^~~~~~~~~~
+../src/helloworld.c:368:52: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:64: warning: excess elements in scalar initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |                                                                ^~~~~~~~~~
+../src/helloworld.c:368:64: note: (near initialization for 'C[6]')
+../src/helloworld.c:368:3: warning: excess elements in array initializer
+  368 |   {0x512722b3, 0x54df695e, 0x32de47d7, 0x0bd87f95, 0x37e448e2, 0x598029d4}};
+      |   ^
+../src/helloworld.c:368:3: note: (near initialization for 'C')
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:492:87: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  492 |     printf("Average computing time for AMNS multiplication in Hardware architecture (%d iterations) : %llu clock cycles (%.3f us).\n",size,  2*(tEnd - tStart)/size, 2*(tEnd - tStart)/size*((double) 0.0015));
+      |                                                                                      ~^                                               ~~~~
+      |                                                                                       |                                               |
+      |                                                                                       int                                             uint32_t {aka long unsigned int}
+      |                                                                                      %ld
+../src/helloworld.c:501:96: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  501 |     printf("Average computing time for the C implementation of the Montgomery multiplication (%d iterations) : %llu clock cycles (%.3f us).\n",size,  2*(tEnd - tStart)/size, 2*(tEnd - tStart)/size*((double) 0.0015) );
+      |                                                                                               ~^                                               ~~~~
+      |                                                                                                |                                               |
+      |                                                                                                int                                             uint32_t {aka long unsigned int}
+      |                                                                                               %ld
+../src/helloworld.c:481:14: warning: unused variable 'busy' [-Wunused-variable]
+  481 |     uint32_t busy = 0;
+      |              ^~~~
+../src/helloworld.c:474:13: warning: variable 'ElapsedTime' set but not used [-Wunused-but-set-variable]
+  474 |     double  ElapsedTime;
+      |             ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AMNS_arith_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_co_design_wrapper/export/AMNS_arith_co_design_wrapper/sw/AMNS_arith_co_design_wrapper/standalone_ps7_cortexa9_1/bsplib/lib -o "AMNS_arith_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AMNS_arith_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AMNS_arith_app.elf  |tee "AMNS_arith_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55392	  11436	  22640	  89468	  15d7c	AMNS_arith_app.elf
+'Finished building: AMNS_arith_app.elf.size'
+' '
+
+18:16:08 Build Finished (took 1s.171ms)
+

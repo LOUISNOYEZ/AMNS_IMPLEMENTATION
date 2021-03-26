@@ -1,0 +1,89 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Mar 23 08:56:23 2021
+| Host         : LAPTOP-6Q7QM5AJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file AMNS_arith_multiple_stage_top_control_sets_placed.rpt
+| Design       : AMNS_arith_multiple_stage_top
+| Device       : xc7z020
+----------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    11 |
+|    Minimum number of control sets                        |    11 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     2 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    11 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               6 |            3 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               8 |            3 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2560 |         1234 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+-----------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|    Clock Signal    |                          Enable Signal                          |                         Set/Reset Signal                         | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------+-----------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|  clock_i_IBUF_BUFG |                                                                 |                                                                  |                3 |              6 |         2.00 |
+|  clock_i_IBUF_BUFG |                                                                 | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s[7]_i_1_n_0   |                3 |              8 |         2.67 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/E[0]                                   | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              159 |            256 |         1.61 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_0[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              116 |            256 |         2.21 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_2[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              104 |            256 |         2.46 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_3[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              110 |            256 |         2.33 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_4[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              112 |            256 |         2.29 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_5[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              120 |            256 |         2.13 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_6[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              210 |            256 |         1.22 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[3]_1[0] | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[1]_12[0] |              114 |            256 |         2.25 |
+|  clock_i_IBUF_BUFG | AMNS_ARITH_INST/FSM_INST/FSM_onehot_current_state_s_reg[5]_0[0] | AMNS_ARITH_INST/FSM_INST/SR[0]                                   |              189 |            512 |         2.71 |
++--------------------+-----------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+
+

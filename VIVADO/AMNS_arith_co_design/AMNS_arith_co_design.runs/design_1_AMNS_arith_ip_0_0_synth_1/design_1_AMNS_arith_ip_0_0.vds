@@ -1,0 +1,705 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 09:29:01 2021
+# Process ID: 13212
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.runs/design_1_AMNS_arith_ip_0_0_synth_1
+# Command line: vivado.exe -log design_1_AMNS_arith_ip_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AMNS_arith_ip_0_0.tcl
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.runs/design_1_AMNS_arith_ip_0_0_synth_1/design_1_AMNS_arith_ip_0_0.vds
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.runs/design_1_AMNS_arith_ip_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_AMNS_arith_ip_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.cache/ip 
+Command: synth_design -top design_1_AMNS_arith_ip_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5008
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1174.480 ; gain = 48.012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_AMNS_arith_ip_0_0' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ip/design_1_AMNS_arith_ip_0_0/synth/design_1_AMNS_arith_ip_0_0.vhd:82]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'AMNS_arith_ip_v1_0' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0.vhd:5' bound to instance 'U0' of component 'AMNS_arith_ip_v1_0' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ip/design_1_AMNS_arith_ip_0_0/synth/design_1_AMNS_arith_ip_0_0.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'AMNS_arith_ip_v1_0' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0.vhd:49]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'AMNS_arith_ip_v1_0_S00_AXI' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0_S00_AXI.vhd:8' bound to instance 'AMNS_arith_ip_v1_0_S00_AXI_inst' of component 'AMNS_arith_ip_v1_0_S00_AXI' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'AMNS_arith_ip_v1_0_S00_AXI' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0_S00_AXI.vhd:89]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'AMNS_arith_multiple_stage' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:37' bound to instance 'AMNS_ARITH_INST' of component 'AMNS_arith_multiple_stage' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0_S00_AXI.vhd:811]
+INFO: [Synth 8-638] synthesizing module 'AMNS_arith_multiple_stage' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:50]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+	Parameter NB_COEFF bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'FSM' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/FSM.vhd:37' bound to instance 'FSM_INST' of component 'FSM' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'FSM' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/FSM.vhd:54]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/FSM.vhd:75]
+INFO: [Synth 8-226] default block is never used [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/FSM.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (1#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/FSM.vhd:54]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'poly_mem' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/poly_mem.vhd:37' bound to instance 'POLY_MEM_INST' of component 'poly_mem' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'poly_mem' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/poly_mem.vhd:52]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'poly_mem' (2#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/poly_mem.vhd:52]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/counter.vhd:34' bound to instance 'COUNTER_INST' of component 'counter' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'counter' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/counter.vhd:42]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter' (3#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/counter.vhd:42]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'ALU_multiple_stage' declared at 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/ALU_multiple_stage.vhd:37' bound to instance 'ALU_INST' of component 'ALU_multiple_stage' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'ALU_multiple_stage' [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/ALU_multiple_stage.vhd:51]
+	Parameter NB_COEFF bound to: 4 - type: integer 
+	Parameter WORD_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ALU_multiple_stage' (4#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/ALU_multiple_stage.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'AMNS_arith_multiple_stage' (5#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/src/AMNS_arith_multiple_stage.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'AMNS_arith_ip_v1_0_S00_AXI' (6#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'AMNS_arith_ip_v1_0' (7#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ipshared/4666/hdl/AMNS_arith_ip_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'design_1_AMNS_arith_ip_0_0' (8#1) [c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.gen/sources_1/bd/design_1/ip/design_1_AMNS_arith_ip_0_0/synth/design_1_AMNS_arith_ip_0_0.vhd:82]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1270.586 ; gain = 144.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1270.586 ; gain = 144.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1270.586 ; gain = 144.117
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.319 . Memory (MB): peak = 1270.586 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1388.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.319 . Memory (MB): peak = 1389.688 ; gain = 0.992
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1389.688 ; gain = 263.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1389.688 ; gain = 263.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1389.688 ; gain = 263.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_s_reg' in module 'FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |                         00000001 |                              000
+                    idle |                         00000010 |                              001
+            poly_mul_mod |                         00000100 |                              101
+      poly_mul_mod_final |                         00001000 |                              110
+                poly_mul |                         00010000 |                              011
+          poly_mul_final |                         00100000 |                              100
+            accumulation |                         01000000 |                              111
+                    load |                         10000000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_s_reg' using encoding 'one-hot' in module 'FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1389.688 ; gain = 263.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   8 Input  128 Bit       Adders := 4     
+	   2 Input  128 Bit       Adders := 4     
+	   2 Input   31 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	              128 Bit    Registers := 4     
+	               64 Bit    Registers := 52    
+	               32 Bit    Registers := 18    
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 40    
+	   4 Input  128 Bit        Muxes := 4     
+	   2 Input   65 Bit        Muxes := 8     
+	   2 Input   64 Bit        Muxes := 134   
+	   4 Input   64 Bit        Muxes := 9     
+	   2 Input   32 Bit        Muxes := 17    
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 6     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 44    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[0], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: operator mul_output_s[0] is absorbed into DSP mul_output_s[0].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[1], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: operator mul_output_s[1] is absorbed into DSP mul_output_s[1].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[2], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: operator mul_output_s[2] is absorbed into DSP mul_output_s[2].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: PCIN+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: Generating DSP mul_output_s[3], operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+DSP Report: operator mul_output_s[3] is absorbed into DSP mul_output_s[3].
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1389.688 ; gain = 263.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 43     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU_multiple_stage | (PCIN>>17)+A*B | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:32 . Memory (MB): peak = 1411.652 ; gain = 285.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:32 . Memory (MB): peak = 1411.875 ; gain = 285.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:26 ; elapsed = 00:01:38 . Memory (MB): peak = 1511.504 ; gain = 385.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:33 ; elapsed = 00:01:45 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:33 ; elapsed = 00:01:45 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:34 ; elapsed = 00:01:46 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:34 ; elapsed = 00:01:47 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:35 ; elapsed = 00:01:48 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:35 ; elapsed = 00:01:48 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |   405|
+|2     |DSP48E1 |    96|
+|3     |LUT1    |     2|
+|4     |LUT2    |  1188|
+|5     |LUT3    |   858|
+|6     |LUT4    |  2358|
+|7     |LUT5    |  1744|
+|8     |LUT6    |  2488|
+|9     |MUXF7   |   384|
+|10    |MUXF8   |    64|
+|11    |FDRE    |  2648|
+|12    |FDSE    |    10|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:35 ; elapsed = 00:01:48 . Memory (MB): peak = 1524.469 ; gain = 398.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:20 ; elapsed = 00:01:42 . Memory (MB): peak = 1524.469 ; gain = 278.898
+Synthesis Optimization Complete : Time (s): cpu = 00:01:35 ; elapsed = 00:01:48 . Memory (MB): peak = 1524.469 ; gain = 398.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.392 . Memory (MB): peak = 1526.621 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 949 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1526.621 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:02:08 . Memory (MB): peak = 1526.621 ; gain = 400.152
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.runs/design_1_AMNS_arith_ip_0_0_synth_1/design_1_AMNS_arith_ip_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_AMNS_arith_ip_0_0, cache-ID = a2787238b78dfff5
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.runs/design_1_AMNS_arith_ip_0_0_synth_1/design_1_AMNS_arith_ip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_AMNS_arith_ip_0_0_utilization_synth.rpt -pb design_1_AMNS_arith_ip_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 09:31:37 2021...

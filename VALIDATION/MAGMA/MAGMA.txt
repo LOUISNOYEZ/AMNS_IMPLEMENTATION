@@ -1,0 +1,90 @@
+M := AssociativeArray();
+M_PRIME := AssociativeArray();
+
+M[0] := 128659502648371;
+M[1] := 99992787138717;
+M[2] := 95597758307649;
+M[3] := 95477151974086;
+
+M_PRIME[0] := 14404731248266644585;
+M_PRIME[1] := 6945810801382881972;
+M_PRIME[2] := 5408557101331171271;
+M_PRIME[3] := 3286953480751773897;
+
+
+printf "M[0] %0h\n", M[0];
+printf "M[1] %0h\n", M[1];
+printf "M[2] %0h\n", M[2];
+printf "M[3] %0h\n\n", M[3];
+
+printf "M_PRIME[0] %0h\n", M_PRIME[0];
+printf "M_PRIME[1] %0h\n", M_PRIME[1];
+printf "M_PRIME[2] %0h\n", M_PRIME[2];
+printf "M_PRIME[3] %0h\n\n", M_PRIME[3];
+
+POLY_MUL := function(A, B, NB_COEFF, LAMBDA)
+    R := AssociativeArray();
+    for i := 0 to NB_COEFF-1 do
+        R[i] := 0;
+    end for;
+    for j := 0 to NB_COEFF-1 do
+        for i := 0 to NB_COEFF-1 do
+            if (i+j) gt NB_COEFF-1 then
+                R[(i+j) mod NB_COEFF] := R[(i+j) mod NB_COEFF] + LAMBDA*A[i]*B[j];
+            else
+                R[i+j] := R[i+j] + A[i]*B[j];
+            end if;
+        end for;
+    end for;
+    return R;
+end function;
+
+A := AssociativeArray();
+B := AssociativeArray();
+
+A[0] := 0x7E9B3B43236;
+A[1] := 0x131DA92C3F1;
+A[2] := 0x6816A4D482E;
+A[3] := 0x1907B809982;
+
+B[0] := 0x7C819473440;
+B[1] := 0x565E062404;
+B[2] := 0x3F43C62E91;
+B[3] := 0x4AF05145D7D;
+
+R := POLY_MUL(A, B, 4, 5);
+
+printf "Multiplication Mod(E)\n";
+for i := 0 to 3 do
+    printf "R[%o] : %h\n", i, R[i];
+end for;
+printf "\n";
+
+Redcoeff := function(A, NB_COEFF, LAMBDA)
+    R := AssociativeArray();
+    for i := 0 to NB_COEFF-1 do
+        R[i] := 0;
+    end for;
+    for j := 0 to NB_COEFF-1 do
+        for i := 0 to NB_COEFF-1 do
+            if (i+j) gt NB_COEFF-1 then
+                R[(i+j) mod NB_COEFF] := (R[(i+j) mod NB_COEFF] + LAMBDA*A[i]*M_PRIME[j]) mod(2^64);
+            else
+                R[i+j] := (R[i+j] + (A[i] mod(2^64))*M_PRIME[j]) mod(2^64);
+            end if;
+        end for;
+    end for;
+    R := POLY_MUL(R,M,4,5);
+    for i := 0 to NB_COEFF-1 do
+        R[i] := ShiftRight(A[i] +R[i],64);
+    end for;
+    return R;
+end function;
+
+R := Redcoeff(R, 4, 5);
+
+printf "RedCoeff du resultat precedent\n";
+for i := 0 to 3 do
+    printf "R[%o] : %h\n", i, R[i];
+end for;
+printf "\n";

@@ -1,0 +1,606 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Mar 23 08:58:12 2021
+| Host         : LAPTOP-6Q7QM5AJ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file AMNS_arith_multiple_stage_top_methodology_drc_routed.rpt -pb AMNS_arith_multiple_stage_top_methodology_drc_routed.pb -rpx AMNS_arith_multiple_stage_top_methodology_drc_routed.rpx
+| Design       : AMNS_arith_multiple_stage_top
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 114
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| SYNTH-10  | Warning  | Wide multiplier               | 96         |
+| TIMING-18 | Warning  | Missing input or output delay | 18         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0] of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__0 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__1 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__10 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__11 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__12 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__13 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__14 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__15 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__16 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__17 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__18 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#13 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__19 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#14 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__2 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#15 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__20 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#16 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__21 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#17 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__22 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#18 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__3 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#19 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__4 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#20 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__5 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#21 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__6 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#22 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__7 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#23 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__8 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#24 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[0]__9 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#25 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1] of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#26 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__0 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#27 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__1 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#28 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__10 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#29 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__11 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#30 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__12 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#31 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__13 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#32 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__14 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#33 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__15 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#34 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__16 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#35 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__17 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#36 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__18 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#37 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__19 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#38 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__2 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#39 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__20 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#40 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__21 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#41 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__22 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#42 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__3 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#43 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__4 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#44 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__5 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#45 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__6 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#46 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__7 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#47 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__8 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#48 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[1]__9 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#49 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2] of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#50 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__0 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#51 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__1 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#52 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__10 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#53 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__11 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#54 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__12 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#55 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__13 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#56 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__14 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#57 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__15 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#58 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__16 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#59 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__17 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#60 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__18 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#61 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__19 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#62 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__2 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#63 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__20 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#64 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__21 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#65 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__22 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#66 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__3 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#67 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__4 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#68 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__5 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#69 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__6 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#70 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__7 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#71 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__8 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#72 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[2]__9 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#73 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3] of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#74 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__0 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#75 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__1 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#76 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__10 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#77 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__11 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#78 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__12 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#79 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__13 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#80 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__14 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#81 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__15 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#82 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__16 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#83 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__17 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#84 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__18 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#85 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__19 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#86 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__2 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#87 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__20 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#88 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__21 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#89 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__22 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#90 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__3 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#91 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__4 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#92 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__5 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#93 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__6 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#94 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__7 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#95 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__8 of size 14x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#96 Warning
+Wide multiplier  
+Detected multiplier at AMNS_ARITH_INST/ALU_INST/mul_output_s[3]__9 of size 18x18, it is decomposed from a wide multipler into 32 DSP blocks.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset_i relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[0] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[1] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[2] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[3] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[4] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[5] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[6] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sel_i[7] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on start_i relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on data_o[0] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on data_o[1] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on data_o[2] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on data_o[3] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on data_o[4] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on data_o[5] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on data_o[6] relative to clock(s) clock
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on data_o[7] relative to clock(s) clock
+Related violations: <none>
+
+

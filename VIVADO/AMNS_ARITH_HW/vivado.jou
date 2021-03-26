@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 06:18:17 2021
+# Process ID: 5776
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20420 C:\Users\louis\Desktop\AMNS_IMPLEMENTATION\VIVADO\AMNS_ARITH_HW\AMNS_ARITH_HW.xpr
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/vivado.log
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/AMNS_ARITH_HW.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source AMNS_arith_multiple_stage_tb.tcl
+relaunch_sim
+run 400 ns
+run 400 ns
+run 400 ns
+close_sim
+launch_simulation
+source AMNS_arith_multiple_stage_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source AMNS_arith_multiple_stage_tb.tcl
+relaunch_sim
+run 400 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim
+open_run impl_1

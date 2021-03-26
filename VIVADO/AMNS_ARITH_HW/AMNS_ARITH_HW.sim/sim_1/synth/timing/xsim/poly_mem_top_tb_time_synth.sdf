@@ -1,0 +1,204 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "poly_mem_top")
+(DATE "Sun Mar 21 22:29:48 2021")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2020.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (93.0:116.0:116.0) (93.0:116.0:116.0))
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (120.0:148.0:148.0) (120.0:148.0:148.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clock_i_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:101.0:101.0) (91.0:101.0:101.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clock_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1419.7:1490.4:1490.4) (1419.7:1490.4:1490.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2458.2:2614.4:2614.4) (2458.2:2614.4:2614.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2449.6:2605.7:2605.7) (2449.6:2605.7:2605.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2466.9:2623.1:2623.1) (2466.9:2623.1:2623.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2465.6:2621.8:2621.8) (2465.6:2621.8:2621.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2472.6:2628.8:2628.8) (2472.6:2628.8:2628.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2466.9:2623.1:2623.1) (2466.9:2623.1:2623.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2448.3:2604.3:2604.3) (2448.3:2604.3:2604.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2438.0:2593.9:2593.9) (2438.0:2593.9:2593.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE reset_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (799.8:933.0:933.0) (799.8:933.0:933.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE sel_i_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (855.4:989.2:989.2) (855.4:989.2:989.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE start_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (821.1:954.5:954.5) (821.1:954.5:954.5))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "poly_mem_top")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[0\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[1\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[2\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[3\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[4\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[5\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[6\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[7\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/O POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/Q POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/I0 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/Q POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I1 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT clock_i_IBUF_BUFG_inst/O POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clock_i_IBUF_inst/O clock_i_IBUF_BUFG_inst/I (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT reset_i_IBUF_inst/O POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I0 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT sel_i_IBUF\[3\]_inst/O POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT start_i_IBUF_inst/O POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I2 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      )
+    )
+)
+)

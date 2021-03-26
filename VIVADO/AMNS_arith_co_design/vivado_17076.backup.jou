@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 22 12:30:40 2021
+# Process ID: 17076
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3976 C:\Users\louis\Desktop\AMNS_IMPLEMENTATION\VIVADO\AMNS_arith_co_design\AMNS_arith_co_design.xpr
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/vivado.log
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.xpr
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.xsa

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 06:32:53 2021
+# Process ID: 1004
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20296 C:\Users\louis\Desktop\AMNS_IMPLEMENTATION\VIVADO\AMNS_arith_co_design\AMNS_arith_co_design.xpr
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/vivado.log
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_arith_co_design/AMNS_arith_co_design.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/IP/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1104.281 ; gain = 0.000
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 06:42:17 2021...

@@ -1,0 +1,10 @@
+15:27:31 **** Incremental Build of configuration Debug for project AMNS_arith_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52096 C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_co_design_wrapper/export/AMNS_arith_co_design_wrapper/AMNS_arith_co_design_wrapper.xpfm standalone_ps7_cortexa9_1 C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_co_design_wrapper/export/AMNS_arith_co_design_wrapper/AMNS_arith_co_design_wrapper.xpfm --sys_config AMNS_arith_co_design_wrapper --bif C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app_system/Debug/system.bif --bitstream C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app/_ide/bitstream/AMNS_arith_co_design_wrapper.bit --elf C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app/Debug/AMNS_arith_app.elf,ps7_cortexa9_1
+creating BOOT.BIN using C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app/_ide/bitstream/AMNS_arith_co_design_wrapper.bit
+Running D:/Vitis/2020.2/bin/bootgen  -image C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/VITIS/AMNS_arith_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+15:27:58 Build Finished (took 27s.120ms)
+

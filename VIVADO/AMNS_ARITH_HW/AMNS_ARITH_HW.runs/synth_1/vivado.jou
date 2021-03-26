@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 08:46:33 2021
+# Process ID: 17456
+# Current directory: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/AMNS_ARITH_HW.runs/synth_1
+# Command line: vivado.exe -log AMNS_arith_multiple_stage_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source AMNS_arith_multiple_stage_top.tcl
+# Log file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/AMNS_ARITH_HW.runs/synth_1/AMNS_arith_multiple_stage_top.vds
+# Journal file: C:/Users/louis/Desktop/AMNS_IMPLEMENTATION/VIVADO/AMNS_ARITH_HW/AMNS_ARITH_HW.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source AMNS_arith_multiple_stage_top.tcl -notrace

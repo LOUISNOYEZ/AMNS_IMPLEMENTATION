@@ -1,0 +1,208 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "poly_mem_top")
+(DATE "Sun Mar 21 22:36:08 2021")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2020.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clock_i_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:101.0:101.0) (91.0:101.0:101.0))
+    )
+  )
+    (TIMINGCHECK
+      (PERIOD (posedge I) (2155.2:2155.2:2155.2))
+      (PERIOD (negedge I) (2155.2:2155.2:2155.2))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clock_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1419.7:1490.4:1490.4) (1419.7:1490.4:1490.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2458.2:2614.4:2614.4) (2458.2:2614.4:2614.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2449.6:2605.7:2605.7) (2449.6:2605.7:2605.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2466.9:2623.1:2623.1) (2466.9:2623.1:2623.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2465.6:2621.8:2621.8) (2465.6:2621.8:2621.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2472.6:2628.8:2628.8) (2472.6:2628.8:2628.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2466.9:2623.1:2623.1) (2466.9:2623.1:2623.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2448.3:2604.3:2604.3) (2448.3:2604.3:2604.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_o_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2438.0:2593.9:2593.9) (2438.0:2593.9:2593.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE reset_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (799.8:933.0:933.0) (799.8:933.0:933.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE sel_i_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (855.4:989.2:989.2) (855.4:989.2:989.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE start_i_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (821.1:954.5:954.5) (821.1:954.5:954.5))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "poly_mem_top")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[0\]_inst/I (2178.2:2544.2:2544.2) (2178.2:2544.2:2544.2))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[1\]_inst/I (1955.2:2282.2:2282.2) (1955.2:2282.2:2282.2))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[2\]_inst/I (2306.0:2695.0:2695.0) (2306.0:2695.0:2695.0))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[3\]_inst/I (2050.5:2393.5:2393.5) (2050.5:2393.5:2393.5))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[4\]_inst/I (2433.7:2845.7:2845.7) (2433.7:2845.7:2845.7))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[5\]_inst/I (2567.4:3002.4:3002.4) (2567.4:3002.4:3002.4))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[6\]_inst/I (1661.9:1933.9:1933.9) (1661.9:1933.9:1933.9))
+      (INTERCONNECT POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/O data_o_OBUF\[7\]_inst/I (3568.8:4206.8:4206.8) (3568.8:4206.8:4206.8))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/O POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/Q POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/I0 (659.2:806.2:806.2) (659.2:806.2:806.2))
+      (INTERCONNECT POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/Q POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I1 (659.2:806.2:806.2) (659.2:806.2:806.2))
+      (INTERCONNECT clock_i_IBUF_BUFG_inst/O POLY_MEM_INST/mem_array_s_reg\[5\]\[3\]\[7\]/C (1781.7:1984.0:1984.0) (1781.7:1984.0:1984.0))
+      (INTERCONNECT clock_i_IBUF_inst/O clock_i_IBUF_BUFG_inst/I (1972.0:2171.0:2171.0) (1972.0:2171.0:2171.0))
+      (INTERCONNECT reset_i_IBUF_inst/O POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I0 (1150.9:1369.9:1369.9) (1150.9:1369.9:1369.9))
+      (INTERCONNECT sel_i_IBUF\[3\]_inst/O POLY_MEM_INST/data_o_OBUF\[7\]_inst_i_1/I1 (2425.7:2875.7:2875.7) (2425.7:2875.7:2875.7))
+      (INTERCONNECT start_i_IBUF_inst/O POLY_MEM_INST/mem_array_s\[5\]\[3\]\[7\]_i_1/I2 (707.0:829.0:829.0) (707.0:829.0:829.0))
+      )
+    )
+)
+)
